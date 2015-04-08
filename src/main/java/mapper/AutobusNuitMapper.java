@@ -1,5 +1,5 @@
 package mapper;
 
-public class AutobusNuitMapper implements PrestationMapper {
+public class AutobusNuitMapper extends PrestationMapper {
 
 }

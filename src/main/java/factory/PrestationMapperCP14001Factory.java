@@ -13,7 +13,7 @@ import entity.Prestation;
 import static conditions.Combinaisons.*;
 
 
-public class PrestationMapperCP14001Factory {
+public class PrestationMapperCP14001Factory extends PrestationMapperFactory{
 	private List<PrestationCondition> conditions;
 	
 //	@PostConstruct

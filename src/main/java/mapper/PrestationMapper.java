@@ -1,5 +1,5 @@
 package mapper;
 
-public interface PrestationMapper {
+public class PrestationMapper {
 
 }
