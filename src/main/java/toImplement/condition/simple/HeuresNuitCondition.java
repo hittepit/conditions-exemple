@@ -1,6 +1,6 @@
-package conditions.simple;
+package toImplement.condition.simple;
 
-import entity.Prestation;
+import existing.entity.Prestation;
 
 public class HeuresNuitCondition extends SimplePrestationCondition {
 

@@ -1,10 +1,10 @@
-package factory;
+package toImplement.factory;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import mapper.PrestationMapper;
-import entity.Prestation;
+import toImplement.mapper.PrestationMapper;
+import existing.entity.Prestation;
 
 public class StandardPrestationMapperFactory extends PrestationMapperFactory{
 	@Override

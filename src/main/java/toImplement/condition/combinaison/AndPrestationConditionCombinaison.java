@@ -1,7 +1,7 @@
-package conditions.combinaison;
+package toImplement.condition.combinaison;
 
-import conditions.PrestationCondition;
-import entity.Prestation;
+import toImplement.condition.PrestationCondition;
+import existing.entity.Prestation;
 
 public class AndPrestationConditionCombinaison extends PrestationConditionCombinaison {
 	public AndPrestationConditionCombinaison(PrestationCondition... conditions) {

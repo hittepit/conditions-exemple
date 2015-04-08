@@ -1,16 +1,16 @@
-package factory;
+package toImplement.factory;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import mapper.AutobusNuitMapper;
-import mapper.PrestationMapper;
-import mapper.PrestationNuitOuBusMapper;
-import conditions.PrestationCondition;
-import conditions.simple.AutobusCondition;
-import conditions.simple.HeuresNuitCondition;
-import entity.Prestation;
-import static conditions.Combinaisons.*;
+import static toImplement.condition.Combinaisons.*;
+import toImplement.condition.PrestationCondition;
+import toImplement.condition.simple.AutobusCondition;
+import toImplement.condition.simple.HeuresNuitCondition;
+import toImplement.mapper.AutobusNuitMapper;
+import toImplement.mapper.PrestationMapper;
+import toImplement.mapper.PrestationNuitOuBusMapper;
+import existing.entity.Prestation;
 
 
 public class PrestationMapperCP14001Factory extends PrestationMapperFactory{

@@ -1,7 +1,7 @@
-package conditions.simple;
+package toImplement.condition.simple;
 
-import conditions.PrestationCondition;
-import mapper.PrestationMapper;
+import toImplement.condition.PrestationCondition;
+import toImplement.mapper.PrestationMapper;
 
 public abstract class SimplePrestationCondition implements PrestationCondition {
 

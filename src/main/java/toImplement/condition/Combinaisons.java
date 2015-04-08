@@ -1,8 +1,8 @@
-package conditions;
+package toImplement.condition;
 
-import conditions.combinaison.AndPrestationConditionCombinaison;
-import conditions.combinaison.NotPrestationConditionCombinaison;
-import conditions.combinaison.OrPrestationConditionCombinaison;
+import toImplement.condition.combinaison.AndPrestationConditionCombinaison;
+import toImplement.condition.combinaison.NotPrestationConditionCombinaison;
+import toImplement.condition.combinaison.OrPrestationConditionCombinaison;
 
 public class Combinaisons {
 	private Combinaisons() {}

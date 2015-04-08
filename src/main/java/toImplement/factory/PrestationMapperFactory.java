@@ -1,9 +1,9 @@
-package factory;
+package toImplement.factory;
 
 import java.util.List;
 
-import mapper.PrestationMapper;
-import entity.Prestation;
+import toImplement.mapper.PrestationMapper;
+import existing.entity.Prestation;
 
 public abstract class PrestationMapperFactory {
 	public abstract List<PrestationMapper> getMapper(Prestation prestation);

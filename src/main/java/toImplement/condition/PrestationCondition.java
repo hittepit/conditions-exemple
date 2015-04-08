@@ -1,7 +1,7 @@
-package conditions;
+package toImplement.condition;
 
-import entity.Prestation;
-import mapper.PrestationMapper;
+import toImplement.mapper.PrestationMapper;
+import existing.entity.Prestation;
 
 public interface PrestationCondition {
 	boolean check(Prestation prestation);
