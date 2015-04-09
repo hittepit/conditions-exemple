@@ -1,7 +1,7 @@
 package toImplement.condition.combinaison;
 
+import existing.mapper.PrestationMapper;
 import toImplement.condition.PrestationCondition;
-import toImplement.mapper.PrestationMapper;
 
 public abstract class PrestationConditionCombinaison implements PrestationCondition {
 	private PrestationCondition[] conditions;

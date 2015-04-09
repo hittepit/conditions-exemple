@@ -2,10 +2,13 @@ package toImplement.factory;
 
 import java.util.List;
 
-import toImplement.mapper.PrestationMapper;
-import existing.entity.Prestation;
+import org.springframework.stereotype.Component;
 
-public class PrestationMapperCP14003Factory extends PrestationMapperFactory {
+import existing.entity.Prestation;
+import existing.mapper.PrestationMapper;
+
+@Component
+public class PrestationMapperCP14003Factory implements PrestationMapperFactory {
 
 	@Override
 	public List<PrestationMapper> getMapper(Prestation prestation) {

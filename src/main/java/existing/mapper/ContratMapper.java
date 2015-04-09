@@ -3,6 +3,6 @@ package existing.mapper;
 import org.springframework.stereotype.Component;
 
 @Component
-public class PrestationMapper {
+public class ContratMapper {
 
 }

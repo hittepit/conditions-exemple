@@ -2,9 +2,11 @@ package toImplement.factory;
 
 import java.util.List;
 
-import toImplement.mapper.PrestationMapper;
-import existing.entity.Prestation;
+import org.springframework.stereotype.Component;
 
-public abstract class PrestationMapperFactory {
-	public abstract List<PrestationMapper> getMapper(Prestation prestation);
+import existing.entity.Prestation;
+import existing.mapper.PrestationMapper;
+
+public interface PrestationMapperFactory {
+	List<PrestationMapper> getMapper(Prestation prestation);
 }

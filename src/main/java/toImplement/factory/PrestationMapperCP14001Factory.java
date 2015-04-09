@@ -1,22 +1,29 @@
 package toImplement.factory;
 
+import static toImplement.condition.Combinaisons.and;
+import static toImplement.condition.Combinaisons.not;
+import static toImplement.condition.Combinaisons.or;
+
 import java.util.ArrayList;
 import java.util.List;
 
-import static toImplement.condition.Combinaisons.*;
+import javax.annotation.PostConstruct;
+
+import org.springframework.stereotype.Component;
+
 import toImplement.condition.PrestationCondition;
 import toImplement.condition.simple.AutobusCondition;
 import toImplement.condition.simple.HeuresNuitCondition;
 import toImplement.mapper.AutobusNuitMapper;
-import toImplement.mapper.PrestationMapper;
 import toImplement.mapper.PrestationNuitOuBusMapper;
 import existing.entity.Prestation;
+import existing.mapper.PrestationMapper;
 
-
-public class PrestationMapperCP14001Factory extends PrestationMapperFactory{
+@Component
+public class PrestationMapperCP14001Factory implements PrestationMapperFactory{
 	private List<PrestationCondition> conditions;
 	
-//	@PostConstruct
+	@PostConstruct
 	public void init(){
 		conditions = new ArrayList<PrestationCondition>();
 		conditions.add(

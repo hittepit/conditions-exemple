@@ -6,6 +6,11 @@ existing = objets existants (je sais, ce n'est pas comme ça que Prestation est 
 
 toImplement = comme son nom l'indique. C'est ce qui manque à part PrestationMapper qui existe déjà
 
+## Spring
+
+Je pense que le PrestationMapper existant est déjà créé par Spring. J'ai donc utilisé Spring pour générer les factories.
+
+Par contre, pour les nouveaux mappers, comme il n'y a pas d'injection, c'est une instanciation directe (rester simple).
 
 ## Patterns
 
@@ -16,6 +21,8 @@ Définit 3 factory de mapper. On peut demander à Spring de récupérer la bonne
 - PrestationMapperFactory = de base
 - PrestationMapperCP14001Factory = pour la CP140.01
 - PrestationMapperCP14003Factory = pour la CP140.03
+
+J'ai définit une classe PrestationMapperFactoryFactory qui permet d'obtenir la bonne factory juste à partir de la CP (elle doit sans doute être améliorée).
 
 **Avantages**
 
