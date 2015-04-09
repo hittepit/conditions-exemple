@@ -54,3 +54,7 @@ Comme déjà discuté, conforme au schéma présenté initialement lors du groom
 **Avantages**
 
 Extensible !
+
+## Tests ##
+
+Ils ne sont pas complets (mais après tout, l'implémentation n'est pas non exacte par rapport au véritable existant), mais ils permettent de valider le fonctionnement de la logique et des patterns (AbstractFactory, Composite). 
